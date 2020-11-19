@@ -3,103 +3,236 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Fabiane Martins Portfolio" content="Official milestone project-personal portifolio"/>
+
+<title>Fabiane Martins Portfolio</title>
+
+<!-- LINKS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="..assets/css/style.css" type="text/css">
-<title>Fabiane Martins Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
 </head>
 
 <body>
     <header>
 
 <!-- NAVIGATION -->
-      <nav id="main-nav" class="navbar navbar-expand-lg navbar-light sticky-top">
-         <a class="navbar-brand" href="index.html">Fabiane Martins</a>
-         <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-     <!--- CREDIT - Code solution to closing hamburger menu once menu item clicked from Orel Eliyahu' on Stack Overflow - https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked --->
-               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link" href="#">Home</a>
-               </li>
-               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link" href="#about">About</a>
-               </li>
-               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link" href="#gallery">Skills</a>
-               </li>
-               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link" href="#gallery">Work History</a>
-               </li>
-               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link" href="#contact">Contact</a>
-               </li>
-               <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link" href="#gallery">Dowload CV</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-    </header>
-
-    <main>
-        <div>BANNER</div>
-        <div>ABOUT</div>
-        <div>SKILLS</div>
-        <div>WORK HISTORY</div>
-        <div>CONTACT</div>
-    
-    
-
-    
-    </main>
- <!-- Footer -->
-    <footer class="container-fluid">
-        <br />
-        <div class="row">
-            <div class="col-12">
-
-                <!-- SOCIAL ICONS/LINKS -->
-                <div class="mb-1 flex-centre text-center social-icon-shadow">
-                    <a class="ic-lik" href="https://www.linkedin.com/in/martinsfabiane/" " target="_blank" aria-label="Find me on Linkedin" rel="noopener">
-                        <i class="fa fa-linkedin-square"></i>
-                    </a>
-                    <a class="ic-pin" href="https://www.linkedin.com/in/martinsfabiane/" target="_blank" aria-label="Find me on Pinterest" rel="noopener">
-                        <i class="fab fa-pinterest fa-lg mr-md-5 mr-3 fa-2x"></i>
-                    </a>
-                    <a class="ic-ins" href="https://instagram.com" target="_blank" aria-label="Find me on Instagram" rel="noopener">
-                        <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"></i>
-                    </a>
-                    <a class="ic-twi" href="https://twitter.com" target="_blank" aria-label="Find me on Twitter" rel="noopener">
-                        <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"></i>
-                    </a>
-                    <a class="ic-fl" href="https://www.youtube.com/" target="_blank" aria-label="Find me on Youtube" rel="noopener">
-                        <i class="fab fa-youtube fa-lg fa-2x"></i>
-                    </a>
-                </div>
-                <!-- COPYRIGHT -->
-                <div class="text-shadow text-center">
-                    <small>Copyright 2020 © Fabiane Martins all rights reserved</small>
-                </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">Fabiane Martins</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <a class="nav-item nav-link" href="#work-history">Work History</a>
+            <a class="nav-item nav-link" href="#contact-form">Contact</a>
+            <a class="nav-item nav-link" href="assets/cv/sample-cv.pdf" target="_blank">Download CV</a>
             </div>
         </div>
-    </footer>
-<!-- Bootstrap scripts -->
+        </nav>
+    </header>
+
+<!-- MAIN BODY -->
+
+            <!-- Callout -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h2 class="jumbotron-header"> Welcome to my portfolio</h2>
+                    <hr class="block-divider block-divider--orange">
+                    <h3> Full Stack Web Development</h3>
+                </section>
+            </div>
+        </div>
+    </div>
+
+            <!-- About -->
+    <div class="container-sm my-5" id="about">
+        <legend class="text-center"><h1>About</h1></legend>
+            <p>I am passionate about organic search optimisation and brilliant digital experience. I have a strong knowledge of the technical elements of website development/architecture and how to combine search optmisation best practices with website structure.
+            My expertise lies in technical SEO, on-page/off-page optimisation, keyword research and local SEO, I am focused on developing SEO strategy that delivers sustainable visibility on search engines maximising the website conversion and business KPIs.
+            </p>
+    </div>
+
+            <!-- Skills -->
+    <div class="container-fluid my-5" id="skills">
+        <legend class="text-center"><h1>Skills</h1></legend>
+        <div class="container skills-inner">
+
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='html'>.html</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='html-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='html'>.css</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='html-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='html'>.SEO</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='html-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 skill-circle">
+                    <div class="arc-container">
+                        <div class="arc-overlay">
+                            <p class='html'>.analytics</p>
+                        </div>
+                        <div class="arc-wrapper">
+                            <div id='html-load2' class="arc2"></div>
+                            <div class="arc1"></div>
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+
+    </div>
+
+
+    
+            <!-- Work History -->
+    <section class= "work-history">
+        <div class="row"
+            <div class="container my-5">
+                <legend class="text-center"><h1>Work History</h1></legend>
+            </div>
+        </div>
+
+    <div class="work-experience">
+
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 box-1">
+                    <h3>Digital Marketing Manager </h3>
+                    <h4>Responsibilities</h4>
+                <ul>
+                    <li>Analysis of lead generation</li>
+                    <li>Develop campaigns strategies</li>
+                    <li>Manage activities of omnichannel</li> 
+                    <li>Website development</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                <h3>SEO/PPC Marketing Specialist </h3>
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>Conducted technical SEO audit</li>  
+                        <li>Implemented local SEO strategy</li>
+                        <li>Keyword research</li>
+                        <li>Manageg & created PPC Campaigns</li>
+                    </ul>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <h3>Senior Content Executive </h3>
+                    <h4>Responsibilities</h4>
+                    <ul>
+                        <li>Liaised with studios for planning logistcs </li>
+                        <li>Managed the content calendar</li> 
+                        <li>Worked with the development team to implement new features</li> 
+                        <li>Website managment and quality control of landing pages</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+
+            <!-- Contact Form -->
+    <article class="container-sm" id="contact-form">
+        <form action="https://formdump.codeinstitute.net/" method="post">
+            <fieldset>
+                <legend class="text-center"><h1>Contact Me</h1></legend>
+                    <div class="form-group md-1">
+                        <label for="name">Name</label>
+                        <input class="form-control" id="name" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group mb-1">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="Have a project in mind?" required></textarea>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center mt-3">
+                        <button type="submit" class="btn btn-info btn-lg btn-submit">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+    </article>  
+
+<!-- FOOTER -->
+    <footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <h5>Follow Me</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                <a target="_blank" href="https://www.linkedin.com/in/martinsfabiane/">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">Linkedin</span>
+                </a>
+                </li>
+            </ul>
+            </div>
+            
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h5>Download CV</h5>
+                <p class="inline-block">
+                Prefer a traditional CV? 
+                No problem!
+                <a href="#" target="_blank" class="cv-pdf">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr only">Download link</span>
+                </a>
+                </p>
+            </div>       
+        </div>
+
+        <!-- Copywrite -->
+        <div class="text-shadow text-center">
+            <small>Copyright 2020 © Fabiane Martins all rights reserved</small>
+            <br>
+        </div>
+    </div>        
+    
+
+<!-- BOOTSTRAP SCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </footer>
 </body>
+
 </html>
