@@ -17,16 +17,17 @@ body {
 	color: black;
     margin: 0;
 }
+
 h1 {
     color: #17a2b8;
+    padding-bottom: 10px;
+    text-align: center;
 }
-
 
 /* Banner Containers */
 
 .callout-container {
-    height: 70vh;
-
+    height: 75vh;
     background: url('../images/me.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -35,11 +36,12 @@ h1 {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 
     position: relative;
 
 }
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -47,6 +49,18 @@ h1 {
     height: 100%;
     width: 100%;
     
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    background-color:#f05f40;
+    text-align: center;
 }
 
 /* Jumbotron */
@@ -57,37 +71,28 @@ h1 {
 
 .jumbotron h2 {
     color:#17a2b8;
-    font-weight: italic;
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom 30px;
+}
+
+.jumbotron h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.block-divider {
+    color: #ffff
 }
 
 /* About */
 
-#about h1 {
-    padding: 15px;
-}
 p{
     margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Work History */
-
-.work-history {
-    background-color:#f8f9fa;
-    margin: 5px;
-    height: 100%;
-}
-.text-center h1 {
-padding: 40px;
-margin-bottom: 15px;
-}
-.work-experience {
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 5px;
-}
 /* Skills */
 
 #skills {background: url(../images/contact.jpg);
@@ -101,9 +106,8 @@ overflow: hidden;
 #skills {
     position: relative;
     top: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
-
 
 .skills-inner {
     margin-bottom: 10%;
@@ -131,7 +135,7 @@ overflow: hidden;
     -webkit-transform: translate(-64px, 50px);
     -moz-transform: translate(-64px, 50px);
     -o-transform: translate(-64px, 50px);
-   
+
 }
 
 .arc2 {
@@ -185,8 +189,18 @@ overflow: hidden;
     width: 130px;
 }
 
-.html {
-    padding-left: 5px;
+/* Work History */
+
+#work-history {
+    background-color:#f8f9fa;
+    margin: 5px;
+    height: 100%;
+}
+
+.work-experience {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
 }
 
 /* FOOTER */
@@ -194,19 +208,21 @@ overflow: hidden;
 footer {
     margin-top: 5rem;
     padding: .10rem;
-    background-color: gray;
+    background-color:#f8f9fa;
     color: rgb(20, 19, 19);
     font-family: 'Roboto', sans-serif;
-    min-width: 33rem;
-    min-height: 100px;
+    min-height: 90px;
 }
+
 h5 {
     margin-top: 2rem;
     margin-left: 5px;
-
 }
 
 small {
     font-size: 1rem;
 }
-
+.social-links {
+    font-size: 1.5em;
+    color: #f05f40 var (__accent color);
+}
