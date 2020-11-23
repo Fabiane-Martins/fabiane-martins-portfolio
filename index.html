@@ -19,15 +19,15 @@
 
 <!-- NAVIGATION -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="index.html">Fabiane Martins</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#about">About </a>
                     <a class="nav-item nav-link" href="#skills">Skills</a>
                     <a class="nav-item nav-link" href="#work-history">Work History</a>
                     <a class="nav-item nav-link" href="#contact-form">Contact</a>
@@ -45,19 +45,22 @@
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-left">
+               
                     <h2 class="jumbotron-header">Welcome to my portfolio</h2>
 
                     <hr class="block-divider block-divider--orange">
                 
                     <h3> Full Stack Web Development</h3>
+                
                 </section>
             </div>
         </div>
     </div>
 
+
             <!-- About -->
 
-    <div class="container-sm pt-5" id="about">
+    <div class="container-sm py-5 pt-5" id="about">
         <legend class="text-center"><h1>About</h1></legend>
 
         <hr class="block-divider block-divider--orange">
@@ -116,7 +119,7 @@
             <!-- Work History -->
 
     <section class= "container-fluid pt-5" id="work-history">
-        <div class="row"
+        <div class="row">
         <div class="container">  
                 <legend class="text-center"><h1>Work History</h1></legend>
 
@@ -206,9 +209,9 @@
             <!-- Social links -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 text-center">
-                <h5>Follow Me</h5>
-                    <ul class="list-inline social-links">
+            <div class="col-12 text-center" id="social-links">
+                <h5>Let's Connect!</h5>
+                    <ul class="list-inline">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.linkedin.com/in/martinsfabiane/">
                                 <i class="fab fa-linkedin" aria-hidden="true"></i>
@@ -225,10 +228,9 @@
 
         <p class="inline-block">
                 Prefer a traditional CV? 
-                No problem!
                     <a href="#" target="_blank" class="cv-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr only">Download link</span>
+                        <span class="sr only"><small style="color:black;"> Download </small></span>
                     </a>
                 </p>
             </div>       
