@@ -8,6 +8,10 @@
 	border: 0;
 }
 
+.custom-wrapper {
+    padding-top:4rem;    
+}
+
 body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 100;
@@ -98,35 +102,26 @@ p{
 
 /* Skills */
 
-#skills {background: url(../images/contact.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width: 100%;
-overflow: hidden;
-}
-
 #skills {
+    background: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
     position: relative;
-    top: 10%;
     padding-bottom: 10px;
-    padding-top: 22px;
 }
 
 .skills-inner {
     margin-bottom: 10%;
 }
 
-@media (min-width: 768px) {
-    .skills-inner {
-        width: 838px;
-    }
-}
-
 .skill-circle {
     display: inline-table;
     margin-bottom: 55px;
-    padding-left: 6%;
+    justify-content: center;
+    display: flex;
 }
 
 .arc1 {
